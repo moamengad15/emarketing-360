@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import * as Icons from 'lucide-react';
-import heroImage from '../assets/images/Slide1.jpg.webp';
+import heroImage from '../assets/images/EMG-eMarketingate.jpg';
 
 function Hero({ headline, subheadline, primary_cta, secondary_cta, hero_img_src }) {
   const resolvedHeadline = headline || 'نمِّ أعمالك عبر تسويق رقمي قائم على البيانات';
