@@ -58,11 +58,13 @@ function Header({
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, ease: 'easeOut' }}
             >
-            <img
-              src={logoImage}
-              alt="الشعار"
-              className="h-12 w-auto object-contain"
-            />
+            <span className="flex items-center justify-center w-9 h-9 rounded-xl bg-gradient-to-br from-[#FF7752] to-[#FF4E17] shadow-[0_0_18px_rgba(255,119,82,0.45)]">
+              <img
+                src={logoImage}
+                alt="الشعار"
+                className="w-[18px] h-[18px] object-contain"
+              />
+            </span>
               <span className="font-inter text-xl font-bold tracking-tight text-white" aria-hidden="true">
                 {''}
               </span>
